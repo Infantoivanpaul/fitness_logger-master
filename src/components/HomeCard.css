@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Condensed&display=swap');
+
+/*css for card*/
+.Card-container{
+    padding: 1em;
+    background-color: rgba(49, 49, 235, 0.774);
+    color: #fff;
+    margin: 1em;
+    border-radius: 20px;
+    font-size: 1.5em;
+    line-height: 1em;
+    font-family: 'Merriweather', serif;
+    
+}
+
+@media screen and (min-device-width: 270px) and (max-device-width: 768px) {
+    .Card-container{
+        padding: 1em;
+        background-color: rgba(49, 49, 235, 0.774);
+        color: #fff;
+        margin: 2px;
+        border-radius: 20px;
+        font-size: 1.2em;
+        font-family: 'Merriweather', serif;
+    } 
+}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+    .Card-container{
+        padding: 1em;
+        background-color: rgba(49, 49, 235, 0.774);
+        color: #fff;
+        margin: 2px;
+        border-radius: 20px;
+        font-size: 1.2em;
+        font-family: 'Merriweather', serif;
+    } 
+}
+
